@@ -263,8 +263,8 @@ def handle(msg):
                     return
             last_time_used[chat_id] = current_time
 
-        #cmd_to_run = f'screen -dm bash -c {shlex.quote(f"python view.py {shlex.quote(url)} {shlex.quote(amount)}")}'
-        #subprocess.run(cmd_to_run, shell=True)
+        cmd_to_run = f'screen -dm bash -c {shlex.quote(f"python view.py {shlex.quote(url)} {shlex.quote(amount)}")}'
+        subprocess.run(cmd_to_run, shell=True)
 
         today = datetime.now().strftime('%d-%m-%Y')
         
