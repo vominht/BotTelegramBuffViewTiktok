@@ -1,0 +1,22 @@
+{
+    "key1": {
+        "type": "vip",
+        "expire": "2024-12-31"
+    },
+    "key2": {
+        "type": "free",
+        "expire": "2024-06-10"
+    },
+    "key3": {
+        "type": "vip",
+        "expire": "2023-01-01"
+    },
+    "5lwVtSkYMe": {
+        "type": "free",
+        "expire": "2024-01-29"
+    },
+    "x1NprjHCk68PR3nzditN": {
+        "expire": "2024-01-30",
+        "type": "free"
+    }
+}
