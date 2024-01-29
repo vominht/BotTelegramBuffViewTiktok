@@ -3,8 +3,8 @@
 Đây là dự án mã nguồn mở do Buffa thực hiện, vui lòng không sử dụng nó cho bất kì mục đích lừa đảo nào ! 
 
 ## Lưu ý
-Đọc kĩ hướng dẫn sử dụng trước khi dùng ( hdsd.txt )
-Mọi thắc mắc và báo lỗi xin vui lòng liên hệ:
+Đọc kĩ hướng dẫn sử dụng trước khi dùng ( hdsd.txt ) <br>
+Mọi thắc mắc và báo lỗi xin vui lòng liên hệ: <br>
 Telegram: https://t.me/ongnoicuamay
 
 ### Cài đặt 
