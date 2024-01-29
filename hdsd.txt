@@ -16,7 +16,7 @@ Chỉnh sửa link rút gọn để lấy key ở dòng 266
 Tải các thư viện cần thiết cho bot: pip install -r setup.txt
 Nếu xuất hiện lỗi: No module named "..." thì hãy dùng lệnh pip install ... 
 
-Giải thích đổi chút về các PLAN và lệnh tạo KEY
+Giải thích đôi chút về các PLAN và lệnh tạo KEY
 Plan FREE: Giới hạn chạy 500 views/1 lần và cần chờ 60s mỗi khi chạy lệnh tiếp theo
 PLAN VIP: Không có giới hạn gì cả
 
