@@ -10,6 +10,7 @@ Hãy thực hiện những bước sau để cài đặt BOT trên máy chủ c�
 
 ```bash
    git clone https://github.com/vominht/BotTelegramBuffViewTiktok/
+   ```
 2. Cài đặt 1 số thư viện cần thiết cho BOT: 
 ```bash 
 cd BotTelegramBuffViewTiktok 
