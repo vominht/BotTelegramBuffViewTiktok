@@ -1,0 +1,29 @@
+Đây là dự án mã nguồn mở do Buffa thực hiện, vui lòng không sử dụng nó cho bất kì mục đích lừa đảo nào !
+
+Các lệnh có trong BOT:
+
+view - chạy view theo link tiktok
+list - xem các key hiện có (lệnh của admin)
+getkey - lấy key để kích hoạt plan
+gen [free/vip] - tạo key thường hoặc vip (lệnh của admin)
+plan - xem plan hiện tại 
+active - lệnh kích hoạt tài khoản
+
+Các sửa đổi cần thiết để cấu hình bot:
+
+Thay đổi và thêm admin id, token bot ở dòng 12,13
+Chỉnh sửa link rút gọn để lấy key ở dòng 266
+Tải các thư viện cần thiết cho bot: pip install -r setup.txt
+Nếu xuất hiện lỗi: No module named "..." thì hãy dùng lệnh pip install ... 
+
+Giải thích đổi chút về các PLAN và lệnh tạo KEY
+Plan FREE: Giới hạn chạy 500 views/1 lần và cần chờ 60s mỗi khi chạy lệnh tiếp theo
+PLAN VIP: Không có giới hạn gì cả
+
+/gen free: tạo ngẫu nhiên 1 key FREE với hạn sử dụng 1 ngày
+/gen vip: tạo ngẫu nhiên 1 key VIP với hạn sử dụng 7 ngày
+
+Mặc định khi /getkey sẽ được key FREE, nếu muốn key VIP cần liên hệ ADMIN
+
+
+Chúc bạn sử dụng Bot vui vẻ ^_^
