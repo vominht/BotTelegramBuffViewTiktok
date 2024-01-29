@@ -15,6 +15,7 @@ Thay đổi và thêm admin id, token bot ở dòng 12,13
 Chỉnh sửa link rút gọn để lấy key ở dòng 266
 Tải các thư viện cần thiết cho bot: pip install -r setup.txt
 Nếu xuất hiện lỗi: No module named "..." thì hãy dùng lệnh pip install ... 
+Nếu view không lên vui lòng chạy file view.py để kiểm tra lỗi vì đây là script chính để buff view
 
 Giải thích đôi chút về các PLAN và lệnh tạo KEY
 Plan FREE: Giới hạn chạy 500 views/1 lần và cần chờ 60s mỗi khi chạy lệnh tiếp theo
