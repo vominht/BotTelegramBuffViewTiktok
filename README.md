@@ -28,6 +28,9 @@ sudo apt-get update
 ``` 
 ```bash 
 sudo apt-get install screen 
+```
+```bash 
+pip install python-telegram-bot --upgrade
 ``` 
 3. Tiến hành chạy BOT 
 ```bash 
