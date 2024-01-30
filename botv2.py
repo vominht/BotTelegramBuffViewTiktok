@@ -177,6 +177,10 @@ async def plan_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
   user_id = update.effective_user.id
   chat_id = update.message.chat_id
 
+  if not is_user_authorized(user_id):
+      bot.sendMessage(chat_id, 'Bạn không có quyền sử dụng hoặc KEY của bạn đã hết hạn.')
+      return
+    
   plan, expire = find_user_plan(user_id)
   if plan and expire:
       message = (
@@ -195,7 +199,11 @@ async def plan_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 async def list_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
   user_id = update.effective_user.id
   chat_id = update.message.chat_id
-
+  
+  if not is_user_authorized(user_id):
+      bot.sendMessage(chat_id, 'Bạn không có quyền sử dụng hoặc KEY của bạn đã hết hạn.')
+      return  
+  
   if user_id not in admin_ids:
       await update.message.reply_text("Bạn không có quyền sử dụng lệnh này !")
       return
@@ -218,7 +226,11 @@ async def view_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
   user_id = update.effective_user.id
   chat_id = update.message.chat_id
   args = update.message.text.split()
-
+  
+  if not is_user_authorized(user_id):
+      bot.sendMessage(chat_id, 'Bạn không có quyền sử dụng hoặc KEY của bạn đã hết hạn.')
+      return
+  
   if len(args) != 3:
       await update.message.reply_text('Usage: /view <link> <số lượng>')
       return
@@ -283,6 +295,10 @@ async def gen_command(update: Update, context: CallbackContext) -> None:
   chat_id = update.effective_chat.id
   user_id = update.effective_user.id
 
+  if not is_user_authorized(user_id):
+      bot.sendMessage(chat_id, 'Bạn không có quyền sử dụng hoặc KEY của bạn đã hết hạn.')
+      return
+  
   if user_id not in admin_ids:
       await update.message.reply_text("Bạn không có quyền sử dụng lệnh này !")
       return
@@ -304,6 +320,10 @@ async def clear_expired_keys(update: Update, context: CallbackContext) -> None:
   chat_id = update.effective_chat.id
   user_id = update.effective_user.id
 
+  if not is_user_authorized(user_id):
+      bot.sendMessage(chat_id, 'Bạn không có quyền sử dụng hoặc KEY của bạn đã hết hạn.')
+      return
+  
   if user_id not in admin_ids:
       await update.message.reply_text("Bạn không có quyền sử dụng lệnh này !")
       return
