@@ -3,3 +3,4 @@ requests
 pystyle
 urllib3
 colorama
+httpx
