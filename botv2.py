@@ -13,7 +13,7 @@ import time
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from telegram.ext import CallbackContext
-
+import telepot
 
 last_time_used = {}
 admin_ids = [5145402317, 987654321] # Đổi thành admin ID của bạn
