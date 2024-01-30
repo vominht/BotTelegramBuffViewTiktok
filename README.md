@@ -2,6 +2,9 @@
 
 Đây là dự án mã nguồn mở do Buffa thực hiện, vui lòng không sử dụng nó cho bất kì mục đích lừa đảo nào ! 
 
+## Thông Báo
+Đã update file botv2.py tương thích trong group chat, sử dụng như file bot.py nhưng sẽ tương thích tốt hơn
+
 ## Lưu ý
 Đọc kĩ hướng dẫn sử dụng trước khi dùng ( hdsd.txt ) <br>
 Mọi thắc mắc và báo lỗi xin vui lòng liên hệ: <br>
