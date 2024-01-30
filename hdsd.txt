@@ -8,6 +8,7 @@ getkey - lấy key để kích hoạt plan
 gen [free/vip] - tạo key thường hoặc vip (lệnh của admin)
 plan - xem plan hiện tại 
 active - lệnh kích hoạt tài khoản
+clearkey - xoá các key hết hạn (botv2.py mới có)
 
 Các sửa đổi cần thiết để cấu hình bot:
 
