@@ -97,7 +97,7 @@ def send(__device_id, __install_id, cdid, openudid):
                                     "resolution": "720*1280",
                                     "device_brand": "samsung",
                                     "language": "vi",
-                                    "os_version": "7.1.2",
+                                    "os_version": f"7.{random.randint(1, 9)}.{random.randint(1, 99)}",
                                     "aid": "1340"
                                 }
         )
