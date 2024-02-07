@@ -114,7 +114,7 @@ def send(__device_id, __install_id, cdid, openudid):
                     "/aweme/v1/aweme/stats/?" + params
                 ),
                 data    = payload,
-                headers = {'cookie': f'sessionid={"".join(random.choices(string.ascii_letters + string.digits, k=32))}', 'x-gorgon': sig['X-Gorgon'], 'x-khronos': sig['X-Khronos'], 'user-agent': 'okhttp/3.10.0.1'}
+                headers = {'cookie': f'sessionid={"".join(random.choices(string.ascii_letters + string.digits, k=32))}','x-gorgon':sig['X-Gorgon'],'x-khronos':sig['X-Khronos'],'user-agent':'okhttp/3.10.0.1'},
                 verify  = False,
                 proxies = {"http": proxy_format+proxy, "https": proxy_format+proxy} if config['proxy']['use-proxy'] else {}
             )
